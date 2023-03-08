@@ -1,0 +1,13 @@
+<%= layout('./boilerplate/templete.ejs') %> 
+<h1 class="title centre">Fill Authentication Details</h1>
+<form action="/auth" method="post" class="form">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">USER</label>
+          <input type="text"  name="user" >
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">PASS</label>
+          <input type="number"  name="pass">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+</form>

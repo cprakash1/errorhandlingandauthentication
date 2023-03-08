@@ -1,0 +1,6 @@
+<%= layout('./boilerplate/templete.ejs') %> 
+<% for(let i of data){ %>
+    <div class="container">
+        <%= i.user %>--<%= i.pass %>  
+    </div> 
+<% } %> 
